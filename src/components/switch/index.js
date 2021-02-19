@@ -16,7 +16,7 @@ const Switch = ({handleChange =()=>{}},current=false) => {
         borderRight: checked ? 'none': ''
       }}
     >
-      <div className={style.switchControl}></div>
+      <div className={style.switchControl} />
     </div>
   );
 };

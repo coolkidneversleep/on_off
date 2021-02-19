@@ -1,7 +1,6 @@
 import { Fragment } from "react";
 import Header from "./header/index";
 import Item from "./item/index";
-import Switch from 'react-ios-switch'
 const items = [
     {
       name: "Lamp on the bed",
@@ -32,7 +31,7 @@ const App = () => {
         <div style={{display:'flex',flexWrap:'wrap'}}>
 			{
 				items.map(i=>{
-					return <Item item={i}/>
+					return <Item item={i} />
 				})
 			}
         </div>
