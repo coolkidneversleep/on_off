@@ -1,0 +1,11 @@
+.itemName {
+	font-size: 1.2em;
+	font-weight: bold;
+}
+.itemBox {
+	display: flex;
+	flex-flow: column;
+	padding: 1rem;
+	width: 50%;
+	align-items: center;
+}
